@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.FlexiloanFlows.testCases.EXAA_Flow">
+        <methods>
+          <include name="CaptureScreenshot2"/>
+          <include name="FormOne1"/>
+          <include name="Upload_document"/>
+          <include name="FormTwo2"/>
+          <include name="bank_statement"/>
+          <include name="dynamicWait"/>
+          <include name="FormFive5"/>
+          <include name="landinaagPage"/>
+          <include name="setup"/>
+          <include name="captureScreenshot1"/>
+          <include name="FormThree3"/>
+          <include name="FormFour4"/>
+          <include name="DBConnectionANDOtppage"/>
+        </methods>
+      </class> <!-- com.FlexiloanFlows.testCases.EXAA_Flow -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

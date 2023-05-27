@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="FlexiloansFlows">
+
+	<listeners>
+		<listener class-name="com.FlexiloanFlows.utilities.Reporting"></listener>
+	</listeners>
+
+	<test name="FlexiloansMultiFlows ">
+		<classes>
+			 <class name="com.FlexiloanFlows.testCases.TestingScript" />
+			 
+			<!--<class name="com.FlexiloanFlows.testCases.nlp_1_Flow" />-->
+			
+			<!--  <class name="com.FlexiloanFlows.testCases.PRODnlp_1_Flow" />-->
+			
+			 <!-- <class name="com.FlexiloanFlows.testCases.TestScript" />-->
+			
+			<!-- <class name="com.FlexiloanFlows.testCases.EXAA_NoBanking_Flow" />-->
+			
+			<!-- <class name="com.FlexiloanFlows.testCases.APITestingRestAssured" />-->
+			
+			<!--  <class name="com.FlexiloanFlows.testCases.Loancodecreation1_value" />-->
+			
+			<!--  <class name="com.FlexiloanFlows.testCases.Loancodecreation2_value" />-->
+			
+		</classes>
+	</test>
+
+</suite>
